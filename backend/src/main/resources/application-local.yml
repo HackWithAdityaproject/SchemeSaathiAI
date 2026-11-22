@@ -1,0 +1,5 @@
+app:
+  auth:
+    demo:
+      email: ${DEMO_EMAIL:demo@schemesaathi.local}
+      password: ${DEMO_PASSWORD:SchemeSaathiDemo!}

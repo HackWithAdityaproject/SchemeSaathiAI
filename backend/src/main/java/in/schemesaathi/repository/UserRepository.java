@@ -1,0 +1,7 @@
+package in.schemesaathi.repository;
+
+import in.schemesaathi.model.UserDocument;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface UserRepository extends MongoRepository<UserDocument, String> {
+}
